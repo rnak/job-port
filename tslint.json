@@ -1,0 +1,56 @@
+{
+    "extends": [
+      "tslint:latest",
+      "tslint-react"
+    ],
+    "rules": {
+      "no-implicit-dependencies": [
+        true,
+        "dev"
+      ],
+      "interface-name": false,
+      "max-line-length": false,
+      "member-access": false,
+      "member-ordering": false,
+      "no-empty-interface": false,
+      "object-literal-sort-keys": false,
+      "max-classes-per-file": false,
+      "ordered-imports": false,
+      "no-namespace": false,
+      "no-console": false,
+      "max-file-line-count": [
+        false,
+        200
+      ],
+      "jsx-alignment": true,
+      "jsx-ban-props": true,
+      "jsx-boolean-value": [
+        true,
+        "never"
+      ],
+      "jsx-curly-spacing": [
+        true,
+        "never"
+      ],
+      "jsx-equals-spacing": [
+        true,
+        "never"
+      ],
+      "jsx-no-bind": true,
+      "jsx-no-lambda": false,
+      "jsx-no-multiline-js": false,
+      "jsx-self-close": true,
+      "jsx-use-translation-function": false,
+      "jsx-wrap-multiline": true,
+      "jsx-no-string-ref": true,
+      "jsx-space-before-trailing-slash": true,
+      "trailing-comma": false,
+      "arrow-parens": [
+        true,
+        "ban-single-arg-parens"
+      ],
+      "interface-over-type-literal": false,
+      "no-submodule-imports": false
+    },
+    "defaultSeverity": "error"
+  }
